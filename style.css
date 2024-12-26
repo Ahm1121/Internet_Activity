@@ -1,0 +1,80 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+
+
+img {
+    width: 250px;
+    border-color: black;
+    border-radius: 15px;
+    transition: 0.5s;
+    
+}
+
+
+img:hover{
+    transform: scale(1.2);
+}
+
+
+.text{
+    font-size: 50px;
+    display: none;
+
+}
+
+
+h1{
+    font-size: 50px;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgb(0, 102, 255);
+    padding: 10px 20px;
+
+}
+
+
+h1:hover{
+    transform: scale(1.2);
+}
+
+
+
+.prag{
+    font-size: 40px;
+}
+
+
+button{
+    border-color: rgb(0, 0, 0);
+    color: black;
+    border-radius: 15px;
+    padding: 20px 40px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+.link{
+    color: rgb(0, 236, 138);
+    transition: 0.3s;
+    transform: scale(1);
+
+}
+
+.link:hover{
+    transform: scale(1.2);
+
+}
+
+
+footer{
+    padding-top: 100px;
+}
